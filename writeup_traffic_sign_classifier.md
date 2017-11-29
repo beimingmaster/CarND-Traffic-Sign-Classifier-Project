@@ -220,8 +220,12 @@ For the fifth image ... the model is relatively sure that this is a Stop Sign (p
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
-I think the neural network use image outline feature to make classifcations in the second convolutional layer.
+I think the neural network use image outline feature to make classifcations in the frist convolutional layer.
 
-feature map the second convlutional layer:
+feature map the first convlutional layer of General Caution:
 
+source image:
+![source image](./test_sign_images/gts_caution.jpg)
+
+feature map:
 ![feature map](./conv_feature_map.jpg)
