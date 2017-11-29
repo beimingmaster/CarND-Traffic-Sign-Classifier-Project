@@ -65,6 +65,7 @@ As a first step, I decided to convert the images to grayscale because gray image
 
 Here is an example of a traffic sign image before and after grayscaling.
 
+![the source image example](./train_data_extend/train_source.jpg)
 ![gray scale image example](./train_data_extend/train_grayscale.jpg)
 
 As a last step, I normalized the image data because normalized image data be well to cnn trainning.
@@ -153,7 +154,7 @@ Here are the results of the prediction:
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | General Caution      		|   General Caution 									| 
-| Pedestrian Crossing     	| Road narrows on the right									|
+| Pedestrian Crossing     	| Traffic Sign (Error)									|
 | Bicycle Crossing			| Bicycle Crossing									|
 | 30 km/h	      		| 30 km/h				 				|
 | Stop			| Stop     							|
@@ -221,4 +222,6 @@ For the fifth image ... the model is relatively sure that this is a Stop Sign (p
 
 I think the neural network use image outline feature to make classifcations in the second convolutional layer.
 
+feature map the second convlutional layer:
 
+![feature map](./conv_feature_map.jpg)
